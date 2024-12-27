@@ -35,20 +35,6 @@ Add a script to run the server using `nodemon` for development:
 Define controllers for your routes. For example, create `controllers/products.js` to manage car-related functionality.
 
 
-### 5. Database Setup
-- Ensure you have PostgreSQL installed and running.
-- Create a database for your application.
-- Use environment variables (via `.env`) to store your database credentials:
-```env
-PORT=8000
-DB_HOST=localhost
-DB_USER=postgres
-DB_NAME=postgres
-DB_PASSWORD=123456
-DB_PORT=5432
-```
-
-
 ### 5. Running the Application
 Before running the application, ensure you have added the following line to your `.env` file to define the port:
 ```env
