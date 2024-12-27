@@ -45,9 +45,8 @@ Ensure you have MySQL installed and running.
 Create a database for your application.
 Use environment variables (via .env) to store your database credentials:
 
-`
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=yourdatabase
-`
