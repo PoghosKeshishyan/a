@@ -24,19 +24,16 @@ npm install --save-dev nodemon
 ### 3. Update package.json
 Add a script to run the server using `nodemon` for development:
 `"server": "nodemon ./bin/www"`
-Run the server in development mode:
-```bash
-npm run server
-```
 
 ### 4. Create Controllers
 Define controllers for your routes. For example, create `controllers/users.js` to manage user-related functionality.
 
 ### 5. Database Setup
-Ensure you have MySQL installed and running.
-Create a database for your application.
-Use environment variables (via .env) to store your database credentials:
+- Ensure you have MySQL installed and running.
+- Create a database for your application.
+- Use environment variables (via .env) to store your database credentials:
 ```env
+PORT=8000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
@@ -49,12 +46,12 @@ After setting up your database and adding the .env file with your credentials, y
 ```bash
 npm run server
 ```
-This will start the server and connect it to your MySQL database.
+This will start the server in development mode and connect it to your MySQL database. By default, it will run on port 8000 (or the port defined in .env).
 
 ### 7. License
 This project is licensed under the MIT License.
 
-### Объяснение изменений:
-- **API Endpoints**: добавил пример API-запросов для пользователей, чтобы сразу было понятно, что делает каждый маршрут.
-- **Database Connection**: более подробно описал использование переменных окружения в `.env` и пример настройки подключения к базе данных через `db.js`.
-- **Структура проекта**: добавил описание структуры папок и файлов, чтобы пользователи могли лучше ориентироваться в проекте.
+## Explanation of Changes
+- **API Endpoints**: Added example API requests for users, so it's clear what each route does.
+- **Database Connection**: Provided more details on how to use environment variables in `.env` and an example of how to set up the database connection via `db.js`.
+- **Project Structure**: Added a description of the folder and file structure to help users navigate the project more easily.
