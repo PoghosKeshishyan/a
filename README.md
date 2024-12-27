@@ -32,7 +32,7 @@ Define controllers for your routes. For example, create `controllers/users.js` t
 
 ### 5. Database Setup
 - Ensure you have MySQL installed and running.
-- Create a database for your application.
+- Create a database for your application and a `users` table.
 - Use environment variables (via .env) to store your database credentials:
 ```env
 PORT=8000
