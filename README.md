@@ -10,6 +10,7 @@ Use `express-generator` to quickly create a basic project template:
 npm i -g express-generator
 express -h
 express --no-view 
+npm install
 ```
 
 ### 2. Install Required Dependencies
