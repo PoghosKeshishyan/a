@@ -38,13 +38,13 @@ Define controllers for your routes. For example, create `controllers/aliens.js` 
 Before running the application, ensure you have added the following line to your `.env` file to define the port:
 ```env
 PORT=8000
-MONGO_URI=mongodb://localhost:27017/your-db-name
+MONGO_URI=mongodb://localhost:27017/aliens
 ```
 After setting up your MongoDB connection and adding the .env file with your credentials, you can run the application:
 ```bash
 npm run server
 ```
-This will start the server in development mode and connect it to your SQLite3 database. By default, it will run on `localhost:8000` (or the port defined in `.env`).
+This will start the server in development mode and connect it to your MongoDB database. By default, it will run on localhost:8000 (or the port defined in .env).
 
 
 ### 6. License
