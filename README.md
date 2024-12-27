@@ -43,12 +43,12 @@ DB_NAME=yourdatabase
 ```
 
 ### 6. Running the Application
-After setting up your database and adding the .env file with your credentials, you can run the application:
+After setting up your database and adding the `.env` file with your credentials, you can run the application:
 
 ```bash
 npm run server
 ```
-This will start the server in development mode and connect it to your MySQL database. By default, it will run on port 8000 (or the port defined in .env).
+This will start the server in development mode and connect it to your MySQL database. By default, it will run on port `8000` (or the port defined in .env).
 
 ### 7. License
 This project is licensed under the MIT License.
