@@ -1,6 +1,6 @@
-# Express API with PostgreSQL
-This project is an API built with Express, using PostgreSQL as the database.  
-It provides endpoints for managing cars and interacting with a PostgreSQL database.
+# Express API with SQLite3
+This project is an API built with Express, using SQLite3 as the database.  
+It provides endpoints for managing cars and interacting with a SQLite3 database.
 
 
 ## Installation and Setup
@@ -19,7 +19,7 @@ npm install
 ### 2. Install Required Dependencies
 Install the essential and development dependencies:
 ```bash
-npm install dotenv pg
+npm install dotenv sqlite3
 npm install --save-dev nodemon
 ```
 
@@ -32,7 +32,7 @@ Add a script to run the server using `nodemon` for development:
 
 
 ### 4. Create Controllers
-Define controllers for your routes. For example, create `controllers/cars.js` to manage car-related functionality.
+Define controllers for your routes. For example, create `controllers/products.js` to manage car-related functionality.
 
 
 ### 5. Database Setup
@@ -49,7 +49,11 @@ DB_PORT=5432
 ```
 
 
-### 6. Running the Application
+### 5. Running the Application
+Before running the application, ensure you have added the following line to your `.env` file to define the port:
+```env
+PORT=8000
+```
 After setting up your database and adding the `.env` file with your credentials, you can run the application:
 ```bash
 npm run server
@@ -57,11 +61,5 @@ npm run server
 This will start the server in development mode and connect it to your PostgreSQL database. By default, it will run on `localhost:8000` (or the port defined in `.env`).
 
 
-### 7. License
+### 6. License
 This project is licensed under the MIT License.
-
-
-## Explanation of Changes
-- **API Endpoints**: Added example API requests for users, so it's clear what each route does.
-- **Database Connection**: Provided more details on how to use environment variables in `.env` and an example of how to set up the database connection via `postgres/index.js`.
-- **Project Structure**: Added a description of the folder and file structure to help users navigate the project more easily.
