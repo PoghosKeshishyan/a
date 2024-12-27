@@ -48,12 +48,12 @@ After setting up your database and adding the `.env` file with your credentials,
 ```bash
 npm run server
 ```
-This will start the server in development mode and connect it to your MySQL database. By default, it will run on port `8000` (or the port defined in .env).
+This will start the server in development mode and connect it to your MySQL database. By default, it will run on `localhost:8000` (or the port defined in `.env`).
 
 ### 7. License
 This project is licensed under the MIT License.
 
 ## Explanation of Changes
 - **API Endpoints**: Added example API requests for users, so it's clear what each route does.
-- **Database Connection**: Provided more details on how to use environment variables in `.env` and an example of how to set up the database connection via `db.js`.
+- **Database Connection**: Provided more details on how to use environment variables in `.env` and an example of how to set up the database connection via `mysql/index.js`.
 - **Project Structure**: Added a description of the folder and file structure to help users navigate the project more easily.
