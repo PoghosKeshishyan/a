@@ -16,8 +16,10 @@ npm install
 ### 2. Install Required Dependencies
 Install the essential and development dependencies:
 
-`npm install dotenv mysql`
-`npm install --save-dev nodemon`
+```bash
+npm install dotenv mysql
+npm install --save-dev nodemon
+```
 
 
 ### 3. Update package.json
