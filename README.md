@@ -25,7 +25,9 @@ npm install --save-dev nodemon
 ### 3. Update package.json
 Add a script to run the server using nodemon:
 
-`"server": "nodemon ./bin/www"`
+`json
+"server": "nodemon ./bin/www"
+`
 
 Run the server in development mode:
 
