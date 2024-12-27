@@ -1,6 +1,6 @@
-# Express API with SQLite3
-This project is an API built with Express, using SQLite3 as the database.  
-It provides endpoints for managing cars and interacting with a SQLite3 database.
+# Express API with SQLite3 and Swagger UI
+This project is an API built with Express, using SQLite3 as the database.
+It provides endpoints for managing posts and interacting with a SQLite3 database. Additionally, it integrates Swagger UI for API documentation and testing.
 
 
 ## Installation and Setup
@@ -19,7 +19,7 @@ npm install
 ### 2. Install Required Dependencies
 Install the essential and development dependencies:
 ```bash
-npm install dotenv sqlite3
+npm install dotenv sqlite3 swagger-ui-express swagger-jsdoc
 npm install --save-dev nodemon
 ```
 
@@ -44,7 +44,13 @@ After setting up your database and adding the `.env` file with your credentials,
 ```bash
 npm run server
 ```
-This will start the server in development mode and connect it to your PostgreSQL database. By default, it will run on `localhost:8000` (or the port defined in `.env`).
+This will start the server in development mode and connect it to your SQLite3 database. By default, it will run on `localhost:8000` (or the port defined in `.env`).
+
+#### Swagger Documentation
+Access the Swagger UI documentation at:
+```bash
+http://localhost:8000/docs
+```
 
 
 ### 6. License
