@@ -32,7 +32,7 @@ Add a script to run the server using `nodemon` for development:
 
 
 ### 4. Create Controllers
-Define controllers for your routes. For example, create `controllers/products.js` to manage car-related functionality.
+Define controllers for your routes. For example, create `controllers/posts.js` to manage car-related functionality.
 
 
 ### 5. Running the Application
