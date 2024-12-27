@@ -28,13 +28,16 @@ Add a script to run the server using nodemon:
 `"server": "nodemon ./bin/www"`
 
 Run the server in development mode:
-`npm run server`
+
+```bash
+npm run server
+```
 
 
 ### 4. Create Controllers
 Define controllers for the routes. For example:
 
-controllers/users.js
+`controllers/users.js`
 
 
 ### 5. Database Setup
@@ -42,7 +45,9 @@ Ensure you have MySQL installed and running.
 Create a database for your application.
 Use environment variables (via .env) to store your database credentials:
 
-`DB_HOST=localhost`
-`DB_USER=root`
-`DB_PASSWORD=yourpassword`
-`DB_NAME=yourdatabase`
+`
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=yourdatabase
+`
