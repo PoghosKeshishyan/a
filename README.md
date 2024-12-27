@@ -23,7 +23,7 @@ npm install --save-dev nodemon
 
 ### 3. Update package.json
 Add a script to run the server using `nodemon` for development:
-`"server": "nodemon ./bin/www"`
+- `"server": "nodemon ./bin/www"`
 
 ### 4. Create Controllers
 Define controllers for your routes. For example, create `controllers/users.js` to manage user-related functionality.
