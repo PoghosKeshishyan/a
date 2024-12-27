@@ -44,7 +44,7 @@ After setting up your MongoDB connection and adding the .env file with your cred
 ```bash
 npm run server
 ```
-This will start the server in development mode and connect it to your MongoDB database. By default, it will run on localhost:8000 (or the port defined in .env).
+This will start the server in development mode and connect it to your MongoDB database. By default, it will run on `localhost:8000` (or the port defined in .env).
 
 
 ### 6. License
